@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "moistcraft/mixins/CrashReport_noopMixin": {
+      "initCrashReport": "Lnet/minecraft/class_128;method_24305()V"
+    },
+    "moistcraft/mixins/MixinAbstractBlock": {
+      "calcBlockBreakingDelta(Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/BlockView;Lnet/minecraft/util/math/BlockPos;)F": "Lnet/minecraft/class_4970;method_9594(Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "moistcraft/mixins/CrashReport_noopMixin": {
+        "initCrashReport": "Lnet/minecraft/class_128;method_24305()V"
+      },
+      "moistcraft/mixins/MixinAbstractBlock": {
+        "calcBlockBreakingDelta(Lnet/minecraft/block/BlockState;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/BlockView;Lnet/minecraft/util/math/BlockPos;)F": "Lnet/minecraft/class_4970;method_9594(Lnet/minecraft/class_2680;Lnet/minecraft/class_1657;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)F"
+      }
+    }
+  }
+}

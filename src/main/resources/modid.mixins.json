@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "moistcraft.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CrashReport_noopMixin",
+    "MixinAbstractBlock"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

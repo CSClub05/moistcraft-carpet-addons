@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "moistcraft-carpet-addons",
+  "version": "1.0.0",
+
+  "name": "MoistCraft-Carpet-Addons",
+  "description": "Carpet additions for MoistCraft server",
+  "authors": ["CSClub05"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "moistcraft.MoistcraftExtension"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.17.x",
+    "fabricloader": ">=0.11.6",
+    "carpet": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
